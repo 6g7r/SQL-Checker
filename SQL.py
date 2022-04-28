@@ -37,9 +37,8 @@ except ImportError:
     try:
       os.system("pip install requests")
     except :
-      
-    print("pip install requests")
-    input("Enter For Exit")
+      print("pip install requests")
+      input("Enter For Exit")
 class sql:
   def __init__(self):
     self.r=requests.Session()
